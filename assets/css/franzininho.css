@@ -37,7 +37,6 @@ body{
   letter-spacing: 2px;
 }
 /*cor do nome do menu*/
-
 .navbar-light .navbar-nav .nav-link{
     color: white;
     margin-left:1rem;
@@ -95,6 +94,35 @@ body{
 footer{
     background-color: #e8e8e8;
     padding: 100px;
+}
+
+.intro-herder-blog{
+    background-image: url("/img/franzininho-slide-2-2.jpg");
+    background-size: cover;
+    height: 50vh;
+    padding-top: 10rem;
+    color: white;
+    text-align: center;
+}
+
+/* .line::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+} */
+.post-content{
+
+}
+.marge-post{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.author-post{
 }
 
 @media (max-width: 425px){
