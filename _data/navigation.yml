@@ -1,12 +1,18 @@
 - name: Início
   link: /#top
+  anchor: true
 - name: Sobre
   link: /#sobre
+  anchor: true
 - name: Projetos
   link: /#projeto
+  anchor: true
 - name: Blog
   link: /blog/
+  anchor: false
 - name: Categoria
   link: /categoria/
+  anchor: false
 - name: Contato
   link: /#contato
+  anchor: true
