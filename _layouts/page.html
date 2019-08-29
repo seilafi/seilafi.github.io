@@ -2,37 +2,26 @@
 layout: default
 ---
 
-<header class="intro-herder-blog">
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1 class="tex-center line">{{ page.title }}</h1>
-                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                {% if page.author %}
-                <p class="author-post"> {{ page.author }} - {{ page.date | date: date_format }}</p>
-                {% else %}
-                <p class="author-post"> {{ page.date | date: date_format }}</p>
-                {% endif %}
+                <div class="site-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                </div>
             </div>
         </div>
     </div>
 </header>
 
-<div class="container post-content ">
-    <div class="row">
-        <div class="col marge-post">
-        {{ content }}
-        </div>
-    </div>
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col">
+			{{ content }}
+		</div>
+	</div>
 </div>
-<!-- <article class="post">
 
-  <header class="">
-    <h1 class="">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="">
-    {{ content }}
-  </div>
-
-</article> -->
+<hr>

@@ -1,7 +1,7 @@
 ---
 title: Categoria
 layout: page
-header-img: img/about-bg.jpg
+header-img: "img/frente.png"
 ---
 
 {% for category in site.categories %}

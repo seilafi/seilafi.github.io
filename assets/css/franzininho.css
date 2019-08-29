@@ -5,6 +5,15 @@ body{
     font-family: 'Comfortaa', cursive;
 }
 
+a{
+    color: #303030;
+}
+
+a:hover{
+    color: #327a46;
+    text-decoration: none;
+}
+
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
@@ -96,9 +105,16 @@ footer{
     padding: 100px;
 }
 
-.intro-herder-blog{
-    background-image: url("/img/franzininho-slide-2-2.jpg");
+.intro-header{
+    /* background-image: url("/img/franzininho-slide-2-2.jpg"); */
     background-size: cover;
+    height: 50vh;
+    padding-top: 10rem;
+    color: white;
+    text-align: center;
+}
+.intro-heade-post{
+    background-color: #1E1E1E;
     height: 50vh;
     padding-top: 10rem;
     color: white;
