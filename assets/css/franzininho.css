@@ -84,6 +84,10 @@ a:hover{
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
 
+.navbar-light .navbar-brand:hover{
+    color: #cecece;
+}
+
 /* card hover */
 .card-img-top:hover{
     transition: all .5s ease;
@@ -120,16 +124,6 @@ footer{
     color: white;
     text-align: center;
 }
-
-/* .line::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background-color: white;
-} */
 .post-content{
 
 }
@@ -141,9 +135,19 @@ footer{
 .author-post{
 }
 
+.lagura{
+    margin-top: 50px;
+}
+
 @media (max-width: 425px){
     .lead{
         font-size: 1rem;
         line-height: 1.5;
+    }
+    footer{
+        padding: 30px;
+    }
+    .intro-heade-post{
+        padding-top: 6rem;
     }
 }
