@@ -135,9 +135,12 @@ footer{
 .author-post{
 }
 
-.lagura{
+.width-page{
     margin-top: 50px;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
 }
+
 
 @media (max-width: 425px){
     .lead{
@@ -149,5 +152,11 @@ footer{
     }
     .intro-heade-post{
         padding-top: 6rem;
+    }
+    .carousel-caption{
+        bottom: 7rem;
+    }
+    .width-page{
+        margin-left: 0px;
     }
 }

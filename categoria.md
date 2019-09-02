@@ -1,7 +1,7 @@
 ---
 title: Categoria
 layout: page
-header-img: "img/frente.png"
+header-img: "img/franzininho-slide-2-2.jpg"
 ---
 
 {% for category in site.categories %}
