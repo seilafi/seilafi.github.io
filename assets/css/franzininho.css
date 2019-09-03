@@ -110,30 +110,29 @@ footer{
 }
 
 .intro-header{
-    /* background-image: url("/img/franzininho-slide-2-2.jpg"); */
+    display: flex;
+    align-items: center;
     background-size: cover;
     height: 50vh;
-    padding-top: 10rem;
+    padding-top: 3rem;
     color: white;
     text-align: center;
 }
 .intro-heade-post{
+    display: flex;
+    align-items: center;
     background-color: #1E1E1E;
-    height: 50vh;
-    padding-top: 10rem;
+    padding-top: 4rem;
+    height: 70vh;
     color: white;
     text-align: center;
 }
-.post-content{
 
-}
 .marge-post{
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.author-post{
-}
 
 .width-page{
     margin-top: 50px;

@@ -10,8 +10,8 @@
 - name: Blog
   link: /blog/
   anchor: false
-- name: Categoria
-  link: /categoria/
+- name: Atividades
+  link: /atividades/
   anchor: false
 - name: Contato
   link: /#contato
