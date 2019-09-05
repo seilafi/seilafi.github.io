@@ -116,8 +116,12 @@ a:hover{
 }
 
 footer{
-    background-color: #e8e8e8;
+    background-color: #161616;
     padding: 100px;
+}
+
+.title-footer{
+    color: #2c8240;
 }
 
 .intro-header{
