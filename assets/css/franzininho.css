@@ -44,6 +44,7 @@ a:hover{
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
+  margin-left: 10px;
 }
 /*cor do nome do menu*/
 .navbar-light .navbar-nav .nav-link{
@@ -105,12 +106,12 @@ a:hover{
 }
 
 #projeto{
-    background-color: #161616;
+    background-color: #e8e8e8;
     padding: 10px 0 60px 0;
 }
 
 .title-projeto{
-    color: white;
+    color: black;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
@@ -167,6 +168,9 @@ footer{
     width: 100%;
     margin-bottom: 20px;
 }
+.logo-header{
+    visibility: visible;
+}
 
 @media (max-width: 425px){
     .lead{
@@ -183,6 +187,12 @@ footer{
         bottom: 7rem;
     }
     .width-page{
+        margin-left: 0px;
+    }
+    .logo-header{
+        visibility: hidden;
+    }
+    .navbar-light .navbar-brand{
         margin-left: 0px;
     }
 }
