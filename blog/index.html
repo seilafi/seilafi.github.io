@@ -9,7 +9,7 @@ header-img: "img/franzininho-slide-2.jpg"
     <div class="card">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <a href="{{ post.url | relative_url }}" target="_blank">
-            <img src="/img/franboy.png" class="card-img-top" alt="franzininho2.jpg">
+            <img src="{{ site.baseurl }}/{{ post.img }}" class="card-img-top" alt="franzininho2.jpg">
         </a>
         <div class="card-body">
             <a class="card-title" href="{{ post.url | relative_url }}"> {{ post.title | escape }}</a>
