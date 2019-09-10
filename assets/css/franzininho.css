@@ -163,7 +163,11 @@ footer{
 .logo-header{
     visibility: visible;
 }
-
+#projeto{
+    background-color: #e8e8e8;
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
 #slide1{
     background-position: center;
     background-size: cover;
@@ -190,9 +194,6 @@ footer{
     justify-content: center;
 }
 
-.bg-newsletter{
-    background-color: #e8e8e8;
-}
 
 @media (max-width: 425px){
     .lead{
