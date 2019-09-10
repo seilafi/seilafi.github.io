@@ -1,7 +1,7 @@
 ---
 title: Atividades
 layout: page
-header-img: "img/franzininho-slide-2-2.jpg"
+header-img: "img/franzininho-slide-2.jpg"
 ---
 
 ## Oficinas

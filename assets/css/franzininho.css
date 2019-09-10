@@ -101,13 +101,11 @@ a:hover{
 }
 
 #contato{
-    margin-bottom: 30px;
+    background-color: #e8e8e8;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
 }
 
-#projeto{
-    background-color: #e8e8e8;
-    padding: 10px 0 60px 0;
-}
 
 .title-projeto{
     color: black;
@@ -160,7 +158,6 @@ footer{
 }
 
 .apoiadores{
-    background-color: #e8e8e8;
     padding: 1px 0 70px 0;
 }
 .img-apoiadores{
@@ -180,6 +177,25 @@ footer{
 #slide2{
     background-size: cover;
     width: 100%;
+}
+#contato ul li{
+    list-style: none;
+}
+
+#contato ul li i{
+    margin-right: 10px;
+}
+
+.newsletter-input{
+    margin: 10px;
+}
+
+.form-inline{
+    justify-content: center;
+}
+
+.bg-newsletter{
+    background-color: #e8e8e8;
 }
 
 @media (max-width: 425px){
