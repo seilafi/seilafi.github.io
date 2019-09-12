@@ -221,18 +221,12 @@ footer{
         visibility: hidden;
     }
     .navbar-light .navbar-brand{
-        margin-left: 0px;
+        margin-left: -35px;
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 360px){
     .navbar-light .navbar-brand{
         margin-left: -54px;
-    }
-}
-
-@media (min-resolution: res;-width: 360px){
-    .navbar-light .navbar-brand{
-        margin-left: -40px;
     }
 }
