@@ -13,14 +13,16 @@ a{
     color: #303030;
 }
 
+footer{
+    background-color: #161616;
+    padding: 100px;
+}
+
 a:hover{
     color: #327a46;
     text-decoration: none;
 }
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-}
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
@@ -29,7 +31,7 @@ a:hover{
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 80vh;
   background-color: #777;
 }
 .carousel-item > img {
@@ -98,30 +100,6 @@ a:hover{
     opacity: 0.7;
 }
 
-/* margem dos titulos */
-.title-margin{
-    margin-bottom:2rem;
-    margin-top: 2rem;
-}
-
-#contato{
-    background-color: #e8e8e8;
-    margin-bottom: 20px;
-    padding-bottom: 30px;
-}
-
-
-.title-projeto{
-    color: black;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-footer{
-    background-color: #161616;
-    padding: 100px;
-}
-
 .title-footer{
     color: #2c8240;
 }
@@ -182,6 +160,12 @@ footer{
     background-size: cover;
     width: 100%;
 }
+
+#contato{
+    background-color: #e8e8e8;
+    padding: 2rem 0 6rem 0;
+}
+
 #contato ul li{
     list-style: none;
 }
@@ -190,10 +174,19 @@ footer{
     margin-right: 10px;
 }
 
+#sobre{
+    padding: 2rem 0 6rem 0;
+}
+
+#projeto{
+    padding: 2rem 0 6rem 0;
+}
 .newsletter-input{
     margin: 10px;
 }
-
+.newsletter{
+    padding: 4rem 0 4rem 0;
+}
 .form-inline{
     justify-content: center;
 }

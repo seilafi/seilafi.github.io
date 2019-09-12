@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-scrolled">
     <div class="container">
-        <a href="{{ site.relative_url }}/"><img class="logo-header"src="{{ site.relative_url }}/img/logo.svg" alt=""></a>
-        <a class="navbar-brand " href="{{ site.relative_url }}/">{{site.title}}</a>
+        <a href="{{ site.relative_url }}/#top"><img class="logo-header"src="{{ site.relative_url }}/img/logo.svg" alt=""></a>
+        <a class="navbar-brand " href="{{ site.relative_url }}/#top">{{site.title}}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -10,15 +10,9 @@
             <ul class="navbar-nav ml-auto ">
                 {% for item in site.data.navigation %}
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    {% if item.anchor == true %}
-                    <a class="nav-link scroll" href="{{ site.baseurl }}{{ item.link }}">
-                        {{ item.name }}
-                    </a>
-                    {% elsif item.anchor == false %}
                     <a class="nav-link" href="{{ site.baseurl }}{{ item.link }}">
                         {{ item.name }}
                     </a>
-                    {% endif %}
                 </li>
                 {% endfor %}
             </ul>
