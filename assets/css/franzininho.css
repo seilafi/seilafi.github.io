@@ -123,9 +123,8 @@ a:hover{
     text-align: center;
 }
 
-.marge-post{
-    margin-top: 50px;
-    margin-bottom: 50px;
+.text-space{
+    padding: 5rem 9rem 5rem 9rem;
 }
 
 
@@ -136,7 +135,7 @@ a:hover{
 }
 
 .apoiadores{
-    padding: 1px 0 70px 0;
+    padding: 2rem 0 6rem 0;
 }
 .img-apoiadores{
     width: 100%;
@@ -215,6 +214,9 @@ a:hover{
     }
     .navbar-light .navbar-brand{
         margin-left: -35px;
+    }
+    .text-space{
+        padding: 5rem 1rem 5rem 1rem;
     }
 }
 
