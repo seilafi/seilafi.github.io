@@ -184,12 +184,25 @@ a:hover{
     margin: 10px;
 }
 .newsletter{
+    font-weight: bold;
+    background-image: url(/img/franzininho-slide-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     padding: 4rem 0 4rem 0;
+}
+.newsletter-title{
+    font-weight: bold;
 }
 .form-inline{
     justify-content: center;
 }
 
+hr.divider {
+    max-width: 3.25rem;
+    border-width: .2rem;
+    border-color: #f4623a;
+}
 
 @media (max-width: 425px){
     .lead{
