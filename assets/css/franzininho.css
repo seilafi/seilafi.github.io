@@ -149,6 +149,20 @@ a:hover{
     padding-top: 5px;
     padding-bottom: 40px;
 }
+
+#projeto h1{
+    letter-spacing: 10px;
+    color: white;
+}
+.divider{
+    max-width: 6rem;
+    border-width: .2rem;
+    border-color: #2c8240;
+}
+
+.card-deck .card{
+    border:none;
+}
 #slide1{
     background-position: center;
     background-size: cover;
@@ -178,6 +192,7 @@ a:hover{
 }
 
 #projeto{
+    background-color: #38423B;
     padding: 2rem 0 6rem 0;
 }
 .newsletter-input{
@@ -196,12 +211,6 @@ a:hover{
 }
 .form-inline{
     justify-content: center;
-}
-
-hr.divider {
-    max-width: 3.25rem;
-    border-width: .2rem;
-    border-color: #f4623a;
 }
 
 @media (max-width: 425px){
