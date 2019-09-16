@@ -33,52 +33,21 @@ slide2: "img/franzininho-slide-2.jpg"
             e venha ser maker.
         </p>
         <div class="card-deck">
+            {% for project in site.project %}
             <div class="card shadow">
-                <a href="https://wikifactory.com/+franzininho/franzboy" target="_blank">
-                    <img src="img/franboy.png" class="card-img-top" alt="franzininho2.jpg">
+                <a href="{{ site.baseurl }}/{{ project.permalink }}" target="_blank">
+                    <img src="{{ site.baseurl }}/{{ project.img }}" class="card-img-top" alt="franzininho2.jpg">
                 </a>
                 <div class="card-body">
-                    <a href="https://wikifactory.com/+franzininho/franzboy" target="_blank">
-                        <h5 class="card-title">FranzBoy</h5>
+                    <a href="{{ site.baseurl }}/{{ project.permalink }}" target="_blank">
+                        <h5 class="card-title">{{project.title}}</h5>
                     </a>
                     <p class="card-text">
-                        A placa FranBoy vem para integrar a família de placas
-                        Franzininho. Com o formato de game procura incentivar o
-                        desenvolvimento de jogos, e hacks diversos com eletrônica.
+                        {{ project.excerpt}}
                     </p>
                 </div>
             </div>
-            <div class="card shadow">
-                <a href="https://wikifactory.com/+franzininho/franzmakey" target="_blank">
-                    <img src="img/franzmakey.jpg" class="card-img-top" alt="franzininho2.jpg">
-                </a>
-                <div class="card-body">
-                    <a href="https://wikifactory.com/+franzininho/franzmakey" target="_blank">
-                        <h5 class="card-title">FranzMakey</h5>
-                    </a>
-
-                    <p class="card-text">
-                        FranzMakey é uma placa compatível com o Makey Makey que
-                        tem o objetivo de possibilitar a interação com o
-                        computador através de objetos inusitados, como, frutas,
-                        legumes, etc.
-                    </p>
-                </div>
-            </div>
-            <div class="card shadow">
-                <a href="https://wikifactory.com/+franzininho/fanzininho-tiny" target="_blank">
-                    <img src="img/fanzininho-tiny.jpg" class="card-img-top" alt="franzininho2.jpg">
-                </a>
-                <div class="card-body">
-                    <a href="https://wikifactory.com/+franzininho/fanzininho-tiny" target="_blank">
-                        <h5 class="card-title">Fanzininho Tiny</h5>
-                    </a>
-                    <p class="card-text">
-                        Franzininho Tiny é uma pequena placa para aplicações
-                        com o microcontrolador ATtiny841.
-                    </p>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
@@ -139,7 +108,7 @@ slide2: "img/franzininho-slide-2.jpg"
             </div>
             <div class="col-md-3">
                 <img src="img/fanzininho-tiny.jpg" class="img-apoiadores" alt="franzininho2.jpg">
-            </div>
+            </div
         </div>
 
     </div>
