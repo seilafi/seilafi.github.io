@@ -135,7 +135,12 @@ a:hover{
 }
 
 .apoiadores{
+    background-color: #EFEFEF;
     padding: 2rem 0 6rem 0;
+}
+
+.apoiadores h1{
+    font-weight: bold;
 }
 .img-apoiadores{
     width: 100%;
@@ -175,8 +180,12 @@ a:hover{
 }
 
 #contato{
-    background-color: #e8e8e8;
     padding: 2rem 0 6rem 0;
+}
+
+#contato h1{
+    letter-spacing: 10px;
+    font-weight: bold;
 }
 
 #contato ul li{
@@ -191,9 +200,18 @@ a:hover{
     padding: 2rem 0 6rem 0;
 }
 
+#sobre h1{
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
 #projeto{
     background-color: #38423B;
     padding: 2rem 0 6rem 0;
+}
+
+#projeto h1{
+    font-weight: bold;
 }
 .newsletter-input{
     margin: 10px;
