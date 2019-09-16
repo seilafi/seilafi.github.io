@@ -23,24 +23,27 @@ a:hover{
     text-decoration: none;
 }
 
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
+.carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    background-size: cover;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 80vh;
-  background-color: #777;
+.carousel-caption {
+    bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    right: 15%;
+    left: 15%;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
 }
-.carousel-item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 32rem;
-}
+
 
 /* personalizado navbar  */
 .navbar-light .navbar-brand {
@@ -135,7 +138,7 @@ a:hover{
 }
 
 .apoiadores{
-    background-color: #EFEFEF;
+    background-color: #38423b;
     padding: 2rem 0 6rem 0;
 }
 
@@ -159,24 +162,9 @@ a:hover{
     letter-spacing: 10px;
     color: white;
 }
-.divider{
-    max-width: 6rem;
-    border-width: .2rem;
-    border-color: #2c8240;
-}
 
 .card-deck .card{
     border:none;
-}
-#slide1{
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#slide2{
-    background-size: cover;
-    width: 100%;
 }
 
 #contato{
@@ -257,6 +245,9 @@ a:hover{
     }
     .text-space{
         padding: 5rem 1rem 5rem 1rem;
+    }
+    .carousel-caption{
+        bottom: 0px;
     }
 }
 

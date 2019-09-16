@@ -4,26 +4,24 @@
         <li data-target="#myCarousel" data-slide-to="1"></li>
     </ol>
     <div class="carousel-inner">
-        <div class="carousel-item active" id="slide1" style="background-image: url('{{ site.baseurl }}/{% if page.slide1 %}{{ page.slide1 }}{% else %}{{ site.slide1 }}{% endif %}')">
-            <div class="container">
+        <div class="carousel-item active" style="background-image: url('{{ site.baseurl }}/{% if page.slide1 %}{{ page.slide1 }}{% else %}{{ site.slide1 }}{% endif %}')">
+            <div class="container ontainer">
                 <div class="carousel-caption text-left">
                     <h1>Projeto Franzininho</h1>
                     <p>O projeto Franzininho tem o objetivo de incentivar
                         as pessoas na tecnologia através da cultura maker e o
                         faça você mesmo.
                     </p>
-                    <p><a class="btn btn-success" href="#" role="button">Saiba mais</a></p>
                 </div>
             </div>
         </div>
-        <div class="carousel-item" id="slide2" style="background-image: url('{{ site.baseurl }}/{% if page.slide2 %}{{ page.slide2 }}{% else %}{{ site.slide2 }}{% endif %}')">
+        <div class="carousel-item" style="background-image: url('{{ site.baseurl }}/{% if page.slide2 %}{{ page.slide2 }}{% else %}{{ site.slide2 }}{% endif %}')">
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Open Hardware</h1>
                     <p> Com placas e documentações abertas, incentivamos o
                         compartilhamento de conhecimento através da comunidade
                         e construção de projetos. </p>
-                    <p><a class="btn btn-success" href="#" role="button">Saiba mais</a></p>
                 </div>
             </div>
         </div>
