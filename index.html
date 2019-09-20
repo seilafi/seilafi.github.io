@@ -32,19 +32,21 @@ slide2: "img/franzininho-slide-2.jpg"
             Conheça nossos outros projetos da família franzininho<br>
             e venha ser maker.
         </p>
-        <div class="card-deck">
+        <div class="row">
             {% for project in site.project %}
-            <div class="card shadow">
-                <a href="{{ site.baseurl }}/{{ project.permalink }}" target="_blank">
-                    <img src="{{ site.baseurl }}/{{ project.img }}" class="card-img-top" alt="franzininho2.jpg">
-                </a>
-                <div class="card-body">
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card h-100 shadow border-0">
                     <a href="{{ site.baseurl }}/{{ project.permalink }}" target="_blank">
-                        <h5 class="card-title">{{project.title}}</h5>
+                        <img src="{{ site.baseurl }}/{{ project.img }}" class="card-img-top">
                     </a>
-                    <p class="card-text">
-                        {{ project.excerpt}}
-                    </p>
+                    <div class="card-body">
+                        <a href="{{ site.baseurl }}/{{ project.permalink }}" target="_blank">
+                            <h5 class="card-title">{{project.title}}</h5>
+                        </a>
+                        <p class="card-text">
+                            {{ project.excerpt}}
+                        </p>
+                    </div>
                 </div>
             </div>
             {% endfor %}
