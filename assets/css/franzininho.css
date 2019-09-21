@@ -116,6 +116,15 @@ a:hover{
     color: white;
     text-align: center;
 }
+
+.intro-header-project{
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    height: 50vh;
+    padding-top: 3rem;
+}
+
 .intro-heade-post{
     display: flex;
     align-items: center;
