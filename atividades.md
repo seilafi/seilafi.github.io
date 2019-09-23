@@ -5,14 +5,16 @@ header-img: "img/franzininho-slide-2.jpg"
 permalink: /atividades/
 ---
 
-## Oficinas
+## Nossa atividades
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Somos apaixonados pela cultura maker, projetos open source e educação. Atuamos com workshops, cursos, palestras, projetos para exposição e desenvolvemtos kits educacionais.
 
-## Workshops
+Em nossa metodologia engajamos estudantes, professores e profissionais a usarem a tecnologia para benefício próprio ou para ajudar na comunidade em que vivem. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Já impactamos milhares de pessoa no Brasil e acreditamos que que o mundo será um lugar melhor através do compartilhamento e da colaboração.
 
-## Palestras
+Temos atividades mão na massa para todas as idades.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Também podemos trabalhar para criar o kit educacional para sua escola.
+
+Entre em contato e veja como levar uma atividade ou kit Franzininho para sua escola ou empresa.

@@ -1,14 +1,17 @@
 ---
-title: 'eBook Franzininho: Monte e programe seu próprio Arduino'
+title: 'Novo Site da Franzininho'
 layout: post
-author: Diana
-categories: eBook
+author: Equipe Franzininho
+categories: Institucional
 img: "img/franzininho-slide-1.jpg"
 ---
 
-O ano de 2018 foi incrível para o projeto Franzininho. Agradecemos a toda a comunidade por todo incentivo ao projeto.Preparamos um presente especial para vocês, um ebook gratuito.Faça já o download e vamos começar 2019 com tudo.
+Lançamos o novo site da Franzininho com o intuito de melhorar a nossa comunicação com a comunidade e clientes. Estamos trabalhando para melhorar a nossa documentação e concentrar as informações.
 
-Download em: http://bit.ly/ebookFranzininho
+Agradecemos ao Allythy Renan pelo serviço prestado na elaboração do site, conforme nossas necessidades.
 
-Agradecemos ao Instituto NCB por todo apoio a diagramação e revisão do ebook.
-Equipe Franzininho
+Caso você tenha alguma sugestão de melhoria ou ideia, fique a vontade para entrar em contato: contato@franzininho.com.br
+
+Continuamos na missão de compartilhar e aprender!
+
+
