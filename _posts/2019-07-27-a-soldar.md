@@ -25,5 +25,3 @@ Projeto open badge feito por [Fabio Souza](https://medium.com/@fabiosouza)
 
 **Frente**
 <img src="/img/frente.png" class="d-block mx-auto img-fluid" >
-
-<iframe  class="d-block mx-auto" width="560" height="415" src="https://www.youtube.com/embed/a1WAYaZ76qY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

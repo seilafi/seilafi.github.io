@@ -139,6 +139,10 @@ a:hover{
     padding: 5rem 9rem 5rem 9rem;
 }
 
+.text-space h1,h2,h3,h4 {
+    margin-bottom: 3rem;
+}
+
 
 .width-page{
     margin-top: 50px;
