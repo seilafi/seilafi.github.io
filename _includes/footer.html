@@ -9,16 +9,28 @@
     <div class="col-6 col-md-4">
       <h5 class="title-footer">Projetos</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="https://wikifactory.com/+franzininho/franzboy">FranzBoy</a></li>
-        <li><a class="text-muted" href="https://wikifactory.com/+franzininho/franzmakey">FranzMakey</a></li>
-        <li><a class="text-muted" href="https://wikifactory.com/+franzininho/fanzininho-tiny">Fanzininho Tiny</a></li>
+          {% for project in site.project %}
+            <li>
+                <a class="text-muted" href="{{ site.baseurl }}/{{ project.permalink }}" target="_blank">
+                    {{ project.title }}
+                </a>
+            </li>
+          {% endfor %}
       </ul>
     </div>
     <div class="col-6 col-md-4">
       <h5 class="title-footer">Redes sociais</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="text-muted" href="http://www.instagram.com.br/franzininho"><i class="fa fa-instagram mr-1"></i>Instagram</a></li>
-        <li><a class="text-muted" href="https://github.com/Franzininho"><i class="fa fa-github mr-1"></i>GitHub</a></li>
+        <li>
+            <a class="text-muted" href="https://www.instagram.com/{{ site.instagram }}" target="_blank">
+                <i class="fa fa-instagram mr-1"></i>Instagram
+            </a>
+        </li>
+        <li>
+            <a class="text-muted" href="https://github.com/{{ site.github }}" target="_blank">
+                <i class="fa fa-github mr-1"></i>GitHub
+            </a>
+        </li>
       </ul>
     </div>
   </div>
