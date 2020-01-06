@@ -1,4 +1,8 @@
 ---
 label: Post
 hide_body: true
-fields: []
+fields:
+- name: titulo
+  type: tag_list
+  default: []
+  label: titulo
