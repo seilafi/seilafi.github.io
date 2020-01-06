@@ -32,3 +32,5 @@ fields:
   config:
     maxSize: 250
   label: img
+pages:
+- _posts/my-life.md
