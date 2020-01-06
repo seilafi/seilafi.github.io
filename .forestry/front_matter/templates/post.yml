@@ -32,5 +32,3 @@ fields:
   config:
     maxSize: 250
   label: img
-pages:
-- _posts/2020-01-05-my-life.md
