@@ -3,6 +3,32 @@ label: Post
 hide_body: true
 fields:
 - name: titulo
+  type: text
+  config:
+    required: false
+  label: Título
+  description: Título da postagem
+  hidden: false
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: categories
   type: tag_list
   default: []
-  label: titulo
+  label: categories
+- name: author
+  type: text
+  config:
+    required: false
+  label: author
+- name: img
+  type: file
+  config:
+    maxSize: 250
+  label: img
